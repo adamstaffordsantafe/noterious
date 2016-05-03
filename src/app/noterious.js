@@ -7,7 +7,7 @@ angular.module('noterious', [
   'noterious.common',
   'gridster'
 ])
-  .constant('ENDPOINT_URI', 'https://noterious.firebaseio.com/')
+  .constant('ENDPOINT_URI', 'https://dazzling-torch-106.firebaseio.com/')
   .config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/boards');
 
